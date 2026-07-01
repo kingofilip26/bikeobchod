@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.oblecek{
+    max-width: 500px;
+}
+.oblecek2::before{
+display:none;
+}
+
+.popis2 h3{
+    font-size: 30px;
+    
+}
+.oblecek:hover .obleceni--image{
+    filter:brightness(0.6)
+}

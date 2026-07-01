@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#obleceni{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    min-height: 1200px;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.obleceni__container{
+    width:100%;
+    max-width: 1600px;
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:50px 20px;
+    margin-top: 50px;
+}
+
+.obleceni--figure{
+    width:100%;
+    max-width: 450px;
+    border-radius: 15px;
+    overflow: hidden;
+    min-height:350px;
+    
+}
+.obleceni--image{
+    width:100%;
+    max-height: 350px;
+    min-height: 350px;
+}
+.oblecek{
+    width:100%;
+    max-width: 350px;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 10px 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:350px;
+    
+}
+
+/*.oblecek::before{
+    content:"";
+    position: absolute;
+    background-color: black;
+    width:100%;
+    height:100%;
+    opacity: 0;
+    transform: translateY(400px);
+    transition: all 400ms ease;
+}
+.oblecek:hover::before{
+    opacity: 0.7;
+    transform: translateY(0);
+}*/
+.oblecek:hover .obleceni--image{
+    filter:brightness(0.6);
+    
+    transition: all 350ms ease;
+}
+.obleceni--popis{
+    width:100%;
+    max-width: 350px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:80px;
+   position: absolute;
+    
+    gap:10px;
+    border-radius: 10px;
+    padding: 20px;
+    transform: translateY(400px);
+    opacity: 0;
+    
+}
+.oblecek:hover .obleceni--popis{
+    transition: all 400ms ease;
+    opacity: 1;
+    transform: translateY(0);
+}
+.oblecek:hover{
+    transform: scale(0.9);
+    transition: all 400ms ease;
+}
+.obleceni--popis h3{
+    font-size: 25px;
+    text-align: center;
+    color:rgb(46, 214, 46)
+}
+.obleceni--popis span{
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(46, 214, 46);
+}
+
+.druhySpan{
+    margin-top:50px;
+}
+
+.oblecek--kratasy{
+    max-width: 600px;
+}
+.kratasy-figure{
+    max-width: 600px;
+}
+.kratasy--image{
+    width: 100%;
+    max-width: 600px;
+    min-width: 600px;
+}
+.kratasy--popis{
+    max-width: 600px;
+}
+

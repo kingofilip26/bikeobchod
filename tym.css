@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.tymPrvni{
+    max-width: 600px;
+}
+
+.imagePrvni{
+    max-width: 600px;
+    object-fit: cover;
+    min-height:550px;
+}
+.figurePrvni{
+    max-width: 600px;
+   min-height:400px;
+}
+
+.figureDruhy{
+    max-width: 700px;
+    
+}
+.imageDruhy{
+    min-height: 500px;
+    
+}
